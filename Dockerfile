@@ -34,7 +34,7 @@ ENV GID 1000
 
 # Install dependencies 
 RUN apt-get update &&\ 
-    apt-get install -y curl lib32gcc1 lsof git sudo &&\
+    apt-get install -y curl lib32gcc1 lsof git sudo perl-modules curl lsof libc6-i386 sed tar &&\
     apt-get clean
 
 # Enable passwordless sudo for users under the "sudo" group
