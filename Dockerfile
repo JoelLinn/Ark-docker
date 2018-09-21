@@ -6,13 +6,13 @@ MAINTAINER TuRzAm
 # Server Name
 ENV SESSIONNAME "Ark Docker"
 # Map name
-ENV SERVERMAP "TheIsland"
+ENV SERVERMAP "Ragnarok"
 # Server password
-ENV SERVERPASSWORD ""
+ENV SERVERPASSWORD "lol"
 # Admin password
 ENV ADMINPASSWORD "adminpassword"
 # Nb Players
-ENV NBPLAYERS 70
+ENV NBPLAYERS 10
 # If the server is updating when start with docker start
 ENV UPDATEONSTART 1
 # if the server is backup when start with docker start
